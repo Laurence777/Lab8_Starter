@@ -8,4 +8,10 @@ Within a Github action that runs whenever code is pushed. Having the tests here 
 
 No, I would use a unit test for that.
 
+3) Would you use a unit test to test the “message” feature of a messaging application? Why or why not? For this question, assume the “message” feature allows a user to write and send a message to another user.
 
+No, since the message feature is a large part of the application and would take many tests to fully test out. 
+
+4) Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters.
+
+Yes, because this is a small function of the feature that can be easily tested using some unit tests.

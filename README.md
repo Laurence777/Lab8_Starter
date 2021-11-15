@@ -1,5 +1,7 @@
 # Lab 8 - Starter
 
+Laurence D'Ercole (Worked alone)
+
 1) Where would you fit your automated tests in your Recipe project development pipeline?
 
 Within a Github action that runs whenever code is pushed. Having the tests here means that anytime the project has been updated, tests will run to make sure that the changes have not negatively affected the function of the project or deliver unexpected outcomes.
